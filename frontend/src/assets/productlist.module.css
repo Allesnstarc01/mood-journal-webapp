@@ -1,0 +1,80 @@
+.productListContainer{
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+.productContainer{
+  width: 350px;
+  margin: 10px;
+  border: 2px solid rgb(240, 235, 235);
+  box-shadow: rgba(50, 50, 93, 0.2) 0px 50px 100px -30px, rgba(0, 0, 0, 0.2) 0px 30px 60px -40px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 3%;
+}
+.productImg{
+  margin: 2%;
+  width: 96%;
+  height: 100px;
+  padding: 10px;
+  border-bottom: 2px solid rgb(138, 136, 136);
+  font-weight: 700;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.categoryBrand{
+  display: flex;
+  justify-content: space-between;
+  margin-left: -8px;
+  
+}
+.specContainer{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+
+}
+.Bcategory{
+  margin: -5px 5px;
+  font-weight: 500;
+}
+.priceTitle{
+  margin-left: 5px;
+  margin-bottom: 0;
+  color: rgb(133, 125, 125);
+}
+.priceTitleContainer{
+  margin: 5px 0;
+}
+.deleteBtn{
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  color: rgb(235, 2, 2);
+  cursor: pointer;
+  padding: 2px;
+}
+.deleteBtn:hover{
+  background-color: rgb(223, 219, 219);
+}
+
+.updateBtn{
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 223, 243);
+  cursor: pointer;
+  padding: 3px;
+}
+.updateBtn:hover{
+    background-color: rgb(225, 209, 120);
+  
+}
+.functionBtn{
+  display: flex;
+  flex-direction: row;
+
+}

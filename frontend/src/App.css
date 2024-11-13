@@ -1,0 +1,73 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.signup{
+margin: 20px;
+width: auto
+}
+.signcss{
+  margin: 20px 0px;
+}
+.mainflex{
+  display: flex;
+  justify-content: center;
+}
+.footer{
+  margin-top: 200px;
+}
+.login{
+  margin-left: 10px;
+}
+.logincss{
+  margin-top: 20px;
+}
+.login-element{
+  margin: 10px 0;
+}
+.logo{
+  width: 40px;
+  float: left;
+  border-radius: 50%;
+}
+.addContainer{
+  margin: 2% 20%;
+  display: flex;
+  flex-direction: column;
+}
+.input{
+  margin: 5px;
+}
+.label{
+  font-weight: 500;
+}
+.add-button{
+  width: 130px;
+  margin: 20px 0;
+  cursor: pointer;
+  background-color: aquamarine;
+  font-weight: 600;
+  border-radius: 10px;
+}
+.add-button:hover{
+  background-color: gainsboro;;
+}
+.validation{
+  color: rgb(235, 70, 70);
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+.spinner{
+  margin: 10% 0;
+}
+
+.filter-div{
+  display: flex;
+  flex-direction: column;
+  margin: 0  20px ;;
+
+}
+.filter{
+  margin: 2px 0;
+  padding: 0px 0px;
+}
